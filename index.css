@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+body {
+    background-image: url("bgPortfolio.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    background-color: rgb(245, 245, 245);
+    padding: 25px;
+    text-align: center;
+    width: 600px;
+    height: 1830px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgb(29, 45, 89);
+}
+
+.nomeMenu {
+    text-align: center;
+    margin-top: 1px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+}
+
+.minhaFoto {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    box-shadow: 3px 3px 10px rgb(64, 64, 64);
+}
+
+.resumo {
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 1px;
+    font-size: 15pt;
+}
+
+.habilidades {
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.lista1 {
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+#iconHTML {
+    color: rgb(225, 0, 0);
+}
+#iconCSS {
+    color: rgb(0, 102, 255);
+}
+#iconJS {
+    color: rgb(231, 199, 16);
+}
+#iconPS {
+    color: rgb(0, 0, 187);
+}
+#iconGIT {
+    color: rgb(120, 0, 0);
+}
+#iconSQL {
+    color: rgb(39, 182, 156);
+}
+
+#botaoFoto {
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 7px rgb(29, 45, 89);
+    background-color: #F1AA8C;
+    border-style: none;
+    margin-left: 1px;
+    padding: 0px 50px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13pt;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    
+}
+
+#botaoLink {
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 7px rgb(29, 45, 89);
+    background-color: #F1AA8C;
+    border-style: none;
+    margin-left: 100px;
+    padding: 0px 50px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13pt;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+
+.lista2 {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 218px;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(54, 127, 230);
+}
+
+.redesSociais {
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(71, 141, 220);
+    letter-spacing: 1.5px;
+}
+
+a:hover {
+    color: rgb(72, 49, 205);
+}
+
+.frasePensador {
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15pt;
+}
+
+.fotoTecnologia {
+    width: 500px;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: 3px 3px 10px;
+}
+
+.botaoTopo {
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 7px rgb(29, 45, 89);
+    background-color: #F1AA8C;
+    border-color: rgba(0, 0, 0, 0.51);
+    font-family: 'Work Sans', sans-serif;
+    padding: 0px 50px;
+    cursor: pointer;
+    font-size: 12pt;
+    letter-spacing: 1.5px;
+    border-style: none;
+}
